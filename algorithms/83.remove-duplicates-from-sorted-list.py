@@ -23,8 +23,8 @@ class Solution:
         while temp:
             if temp.next and temp.val == temp.next.val:
                 temp.next = temp.next.next
-                continue
-            temp = temp.next 
+            else:
+                temp = temp.next    
         return head
-    
+            
 # @lc code=end
